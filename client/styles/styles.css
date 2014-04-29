@@ -6,7 +6,7 @@ body {
 }
 
 #main {
-    width: 606px;
+    width: 675px;
     margin: auto;
     text-align: left;
     background: white;
@@ -88,20 +88,25 @@ form input[type=text] {
     float: left;
     width: 400px;
     height: 300px;
+    overflow-y: auto;
+    padding: 10px;
 }
 
 #users {
     border: 1px solid black;
     float: left;
-    width: 100px;
+    width: 200px;
     height: 300px;
+    overflow-y: auto;
+    padding: 10px;
 }
 
 #rooms {
-    border: 1px solid black;
-    float: left;
-    width: 100px;
-    height: 300px;
+
+}
+
+.friend{
+    font-weight:bold;
 }
 
 

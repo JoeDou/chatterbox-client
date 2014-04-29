@@ -12,6 +12,7 @@
     <!-- your scripts -->
     <script src="scripts/config.js"></script>
     <script src="scripts/app.js"></script>
+
   </head>
   <body>
     <div id="main">
@@ -19,9 +20,16 @@
       <!-- Your HTML goes here! -->
       <div id="chats"></div>
       <div id="users"></div>
-      <div id="rooms"></div>
-      <input type="text" placeholder="Enter message here"> </input>
-      <button class="submit" id="send">Submit</button>
+      <input type="text" id="username" placeholder="Enter username here"></input>
+      <input type="text" id="message" placeholder="Enter message here"></input>
+      <button id="sendMessage" class="submit">Submit</button>
+      <br>
+      <input type="text" id="newRoom" placeholder="Enter room name here"></input>
+      <button id="createRoom" class="submit">Create Room</button>
+      <span id="rooms">
+        <select id="test">
+        </select>
+      </span>
     </div>
   </body>
 </html>
